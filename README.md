@@ -28,7 +28,7 @@ This project analyzes financial transaction data to identify potential money lau
 ## 🛠 Tools & Technologies
 - Python (Pandas, Matplotlib)
 - SQL (Google BigQuery)
-- Tableau (data visualization)
+- Tableau (planned for dashboard visualization)
 - Jupyter Notebook
 
 ---
@@ -71,7 +71,7 @@ This project analyzes financial transaction data to identify potential money lau
 
 ---
 
-## 📈 Visualizations
+## 📈 Visualizations (Python-based)
 - Fraud vs Non-Fraud distribution
 - Risk level classification (Low / Medium / High)
 - High-risk account analysis
