@@ -86,6 +86,71 @@ This project analyzes financial transaction data to identify potential money lau
 
 ---
 
+## 🚨 Sample AML Case Narratives
+### 🚨 Case 1: Structuring Activity
+
+**Subject:** Account C372013621  
+
+**Summary of Activity:**  
+The account exhibited transaction patterns consistent with structuring behavior. Multiple transactions were conducted within a narrow range between $9,000 and $10,000, which is just below the standard reporting threshold.
+
+**Key Indicators:**
+- Repeated transactions just below $10,000  
+- Transaction pattern designed to avoid regulatory reporting thresholds  
+- No corresponding increase in legitimate account activity  
+
+**Risk Assessment:**  
+This behavior suggests intentional structuring to evade detection and reporting requirements.
+
+**Risk Score:** Medium–High  
+
+**Recommendation:**  
+Escalate for further review. Monitor for continued structuring behavior and assess for potential aggregation across linked accounts.
+
+
+### 🔄 Case 2: Rapid Movement of Funds (Layering)
+
+**Subject:** Account C1231006815  
+
+**Summary of Activity:**  
+The account demonstrated rapid transaction activity within short time intervals, indicating potential layering behavior. Funds appear to be quickly moved through the account, making it difficult to trace the origin and destination of funds.
+
+**Key Indicators:**
+- Multiple transactions occurring within minimal time gaps  
+- Rapid inflow and outflow of funds  
+- Limited account balance retention  
+
+**Risk Assessment:**  
+This pattern is consistent with layering, a technique used in money laundering to obscure the audit trail of illicit funds.
+
+**Risk Score:** High  
+
+**Recommendation:**  
+Escalate for immediate investigation. Review linked accounts and transaction chains to identify potential laundering networks.
+
+
+### 💰 Case 3: High Transaction Volume
+
+**Subject:** Account C1000037689  
+
+**Summary of Activity:**  
+The account processed a significantly high volume of funds, with total transaction amounts exceeding expected thresholds for typical account behavior.
+
+**Key Indicators:**
+- Total transaction volume exceeding $50,000  
+- Large individual transaction amounts  
+- Elevated average transaction value  
+
+**Risk Assessment:**  
+High transaction volume without clear business justification may indicate potential misuse of the account for illicit financial activity.
+
+**Risk Score:** Medium  
+
+**Recommendation:**  
+Conduct enhanced due diligence to determine the source of funds and legitimacy of activity. Continue monitoring for additional risk indicators.
+
+---
+
 ## 🚀 Conclusion
 This project demonstrates how data analysis techniques can be applied to financial transaction data to support anti-money laundering efforts. It combines rule-based detection with exploratory data analysis to identify suspicious behavior patterns.
 
